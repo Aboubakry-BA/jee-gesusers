@@ -7,19 +7,24 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #f0f0f0;
 }
 
-form {
+#corps {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 80%;
+    margin: 20px 0;
+}
+
+#titre-principal {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .formItem {
@@ -55,12 +60,30 @@ form {
     background-color: #45a049;
 }
 
+.erreur {
+    color: red;
+    font-size: 12px;
+}
+
+.succes {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.erreur {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 #pied {
     text-align: center;
-    margin-top: auto;
     padding: 10px;
     font-size: 12px;
     color: #666;
-    width: 100%;
     background-color: #f0f0f0;
+    width: 100%;
 }

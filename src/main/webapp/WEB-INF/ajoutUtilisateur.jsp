@@ -43,6 +43,6 @@
 			</div>
 		</form>
 	</div>
-	<div id="pied">Copyright DIC3 ESP &copy; Novembre 2022</div>	
+	<div id="pied">Copyright DIC3 ESP &copy; 2024</div>	
 	</body>
 </html>

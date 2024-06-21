@@ -15,7 +15,7 @@ public class UtilisateurDao {
 	private static int lastId = 0;
 	private static final String INSERT_USERS = "INSERT INTO utilisateurs VALUES (0, ?, ?, ?, ?)";
 	private static final String UPDATE_USERS = "UPDATE utilisateurs SET nom = ?, prenom = ?, login =?, password = ? WHERE id = ? ";
-	private static final String SELECT_USER_BY_ID = "SELECT * FROM Utilsateur WHERE id = ?";
+	private static final String SELECT_USER_BY_ID = "SELECT * FROM utilisateurs WHERE id = ?";
 	private static final String SELECT_USER_BY_LOGIN = "SELECT * FROM utilisateurs WHERE login = ?";
 	private static final String DELETE_USER = "DELETE FROM utilisateurs WHERE id = ?";
 	private static final ArrayList<Utilisateur> utilisateurs = new ArrayList<Utilisateur>();
